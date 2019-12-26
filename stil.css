@@ -1,0 +1,333 @@
+body{
+	font-family: sans-serif;
+}
+
+a{
+	   text-decoration: none;
+}
+
+.kenar{
+	border-color: white;
+}
+
+.fiyat{
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #F37A1A;
+	font-style: bold;
+}
+
+.adet{
+	text-align: center;
+	size: 2;
+}
+
+.yazi a{
+	color: white;
+	font-size: 12;
+	text-decoration: none;
+}
+
+.yazi2 a{
+	color: white;
+	font-size: 18;
+	text-decoration: none;
+}
+
+.yazi3{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: bold;
+}
+
+.yazi4{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: bold;
+	color: #000;
+	text-align: right;
+	background-color: #ffcc66;
+}
+
+#box {
+	background-color: #e0e0e0#;
+	border: 1px solid #666;
+	color: #222;
+	display: inline-block;
+	font:1.2em Helvetica;
+	margin-right: -.25em;
+	outline: 0;
+	opacity: 0;
+	padding: 1px;
+	transition: .55s;
+	-webkit-transition: .55s;
+	-moz-transition: .55s;
+	width: 0;
+	opacity: 1;
+	padding-left: .75em;
+	padding-right: .75em;
+	width: 11em;
+	border-radius:5px 0 0 5px;
+}
+
+label {
+	background-image: linear-gradient(#8b9da9, #fff6e4);
+	box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
+	border: 1px;
+	cursor: pointer;
+	display: inline-block;
+	font: 1.2em sanf-serif;
+	margin-left: -.125em;
+	padding: 2px 5px 2px 5px;
+	transition: .25s;
+	color:#fff;
+	text-shadow:2px 2px 2px #666;
+	border-radius:5px;
+}
+
+#box:hover + label{
+	border-radius:0 20px 20px 0;
+}
+ 
+#box:hover + label {
+	background-color: #red;
+}
+
+
+a.sepet {
+  display: block;
+  width: 50px;
+  height: 42px;
+  background: url(resimler/sepet1.png) 0 0 no-repeat;
+  text-indent:-999px;
+}
+a:hover.sepet {
+  background-position: -80px 0;
+  background: url(resimler/sepet2.png) 0 0 no-repeat;
+}
+
+a.hesap {
+  display: block;
+  width: 55px;
+  height: 56px;
+  background: url(resimler/hesap.png) 0 0 no-repeat;
+  text-indent:-999px;
+}
+a:hover.hesap {
+  background-position: -80px 0;
+  background: url(resimler/hesap2.png) 0 0 no-repeat;
+}
+
+a.favori {
+  display: block;
+  width: 60px;
+  height: 62px;
+  background: url(resimler/favori.png) 0 0 no-repeat;
+  text-indent:-999px;
+}
+a:hover.favori {
+  background-position: -80px 0;
+  background: url(resimler/favori2.png) 0 0 no-repeat;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: solid 5px #ebebeb;
+  height: 30px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 900;
+  
+}
+ 
+.menu li{
+  float: left;
+  position: relative;
+  width: 200px;
+  
+}
+ 
+.menu ul li ul{
+  display: none;
+  position: absolute;
+}
+ 
+.menu ul li:hover ul{
+  display: inline;
+  
+}
+ 
+.menu ul li a{
+  text-decoration: none;
+  background: #fff;
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: left;
+  border-left: 0px solid #595959;
+  padding: 5px;
+  
+}
+ 
+.menu ul li ul li a{
+  background: #fff;
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+  font-size: .8em;
+  
+}
+ 
+.menu li a:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+  transition: .1s;
+  
+}
+ 
+.menu ul li ul li a:hover{
+  padding-left: 15px;
+  
+}
+
+.image-box{
+	width: 100px;
+	height: 226px;
+	transform: rotate(15deg) scale(0.5) translate(150px,50px) skew(10deg 20deg);
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow:0 0 10px #000;	
+	transition: width 2s background 2s;
+	background: url(resimler/sondk.png) 0 0 no-repeat;
+}
+
+.image-box:hover{
+	width: 300px;
+	background: url(resimler/reklam2.jpg) 0 0 no-repeat;
+}
+
+.image-box2{
+	width: 100px;
+	height: 226px;
+	transform: rotate(15deg) scale(0.5) translate(150px,50px) skew(10deg 20deg);
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow:0 0 10px #000;	
+	transition: width 2s background 2s;
+	background: url(resimler/indirim.png) 0 0 no-repeat;
+}
+
+.image-box2:hover{
+	width: 300px;
+	background: url(resimler/reklam21.jpg) 0 0 no-repeat;
+}
+
+.image-box3{
+	width: 100px;
+	height: 226px;
+	transform: rotate(15deg) scale(0.5) translate(150px,50px) skew(10deg 20deg);
+	border: 1px solid grey;
+	border-radius: 20px;
+	box-shadow:0 0 10px #000;	
+	transition: width 2s background 2s;
+	background: url(resimler/indirim2.png) 0 0 no-repeat;
+}
+
+.image-box3:hover{
+	width: 300px;
+	background: url(resimler/reklam22.jpg) 0 0 no-repeat;
+}
+
+.picbyk{
+	float: left;
+	height: 226px;
+	width: 720px;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.picbyk>img{
+	height:226px;
+	width:720px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	transition:all 1s ease;
+}
+
+.picbyk>img:hover{
+	width: 726px;
+	height: 235px;
+}
+
+.pickck{
+	float: left;
+	height: 226px;
+	width: 720px;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.pickck>img{
+	height:226px;
+	width:720px;
+	-webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    transition:all 1s ease;
+}
+
+.pickck>img:hover{
+	width: 715px;
+	height: 220px;
+}
+
+.picture {
+    width: 300px;
+    height: 226px;
+    background-size: 300px 226px;
+    position: relative;    
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);    
+}
+.pic_transform {
+    line-height:30px;
+    transition-duration: 0.5s;            
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s;    
+    overflow: hidden;
+    height: 0px;
+}
+.picture:hover .pic_transform {
+    height: 30px;
+}
+.text_display {
+    transform-origin: top;               
+    transition-duration: 0.5s;               
+    -webkit-transform-origin: top;       
+    -webkit-transition-duration: 0.5s;   
+    -moz-transform-origin: top;           
+    -moz-transition-duration: 0.5s;       
+    font-size: 14px;
+    font-family: sanf-serif;       
+    font-weight: bold;
+    text-align: right;
+    color: white;
+}
+.picture:hover .text_display {
+    background: #FEA500;   
+    color: #fff;   
+    height:30px;
+}

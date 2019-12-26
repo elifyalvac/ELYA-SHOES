@@ -1,0 +1,232 @@
+<html>
+<head>
+<title>Ürün Detayı</title>
+<link rel="stylesheet" href="stil.css">
+<script type="text/javascript">
+			function arti()
+			{var a;  
+				a=parseInt(document.formum.adet.value);
+				a++;
+				document.formum.adet.value=a;
+				tutar=(81.95*a);
+				document.formum.tutar.value=tutar;
+				
+			}
+			function eksi()
+			{
+				var a;		
+				a=parseInt(document.formum.adet.value);
+				a--;
+				document.formum.adet.value=a;
+				tutar=(81.95*a);
+				document.formum.tutar.value=tutar;
+			}
+			function sepet()
+			{
+				var b;
+				b=parseInt(document.sepetim.spt.value);
+				b++;
+				document.sepetim.spt.value=b;
+			}
+			function hesap()
+			{
+				document.write("<FRAMESET COLS=50%><FRAME SRC=hesap.html></FRAMESET>");
+			}
+</script>
+</head>
+<body>
+ <table width="80%" border="0" cellspacing="0" cellpadding="6" align="center">
+	<tr>					
+		<td colspan="2">
+		
+		
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td rowspan="2" width="40%"><img src="resimler/logo.png" height="110" usemap="#logosmap"/>
+				
+				<map name="logosmap">
+				<area shape="rect" coords="1,110,120,1" href="anasayfa.html" alt="hii">
+				</map> 
+				
+				</td>
+				<td colspan="4" align="right"><form><input type="search" id="box" placeholder="Ara..">
+				<label for="arama">ARA</label></form></td>
+			</tr>
+			
+			<form name="sepetim">
+			<tr>
+				<td></td>
+				<td align="right" valign="bottom" width="55"><a class="hesap" onclick="hesap()"></a></td>
+				<br><td align="right" valign="bottom" width="65"><a class="favori" href=""></a></td>
+				<td align="right" valign="bottom" width="55" height="42">
+				<input type="text" name="spt" value="0" size="1" style="text-align:center; size:20; border:0; color:#F37A1A; font-weight:bold;">
+				<a class="sepet" href="sepet.html"></a>
+				</td>
+			</tr></form>
+			</table>
+			
+			
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="middle">
+		<nav class="menu"><ul>
+		<li><a href="">Kadın</a>
+			<ul>
+			<li><a href="sayfa2.html">Topuklu Ayakkabı</a></li>
+			<li><a href="sayfa3.html">Bot & Çizme</a></li>
+			<li><a href="sayfa4.html">Spor Ayakkabı</a></li>
+			<li><a href="sayfa5.html">Günlük Ayakkabı</a></li>
+			<li><a href="sayfa6.html">Babet</a></li>
+			<li><a href="sayfa7.html">Ev Terliği & Botu</a></li>
+			</ul></li>
+		<li><a href="">Erkek</a>
+			<ul>
+			<li><a href="sayfa8.html">Spor Ayakkabı</a></li>
+			<li><a href="sayfa9.html">Günlük Ayakkabı</a></li>
+			<li><a href="sayfa10.html">Bot & Çizme</a></li>
+			<li><a href="sayfa11.html">Klasik</a></li>
+			</ul></li>
+		<li><a href="">Kız Çocuk</a>
+			<ul>
+			<li><a href="sayfa12.html">Spor Ayakkabı</a></li>
+			<li><a href="sayfa13.html">Günlük Ayakkabı</a></li>
+			<li><a href="sayfa14.html">Babet</a></li>
+			</ul></li>
+		<li><a href="">Erkek Çocuk</a>
+			<ul>
+			<li><a href="sayfa15.html">Spor Ayakkabı</a></li>
+			<li><a href="sayfa16.html">Günlük Ayakkabı</a></li>
+			<li><a href="sayfa17.html">Bot</a></li>
+			</ul></li>
+		</li>
+		</ul>
+
+		</nav>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="left" valign="middle"><br>
+		<a href="anasayfa.html"><font color="#ff6600" size="2">Anasayfa ></font></a>
+		<a href="sayfa2.html"><font color="#f27a1a" size="2">Topuklu Ayakkabı ></font></a>
+		<font color="#ffcc33" size="2">Ürün Detayı </font>
+		</td>
+	</tr>
+	<tr align="center">
+		<td rowspan="2">
+		<table cellpadding="5" cellspacing="0" border="0" align="left" class="yazi3">
+		<tr valign="top" align="left">
+			<td rowspan="7"><img src="resimler/topuklu1_2.jpg" width=233 height=400></td>
+			<td><b>Ürün Adı:</b></td>
+			<td>Mor Sitiletto Ayakkabı<br><br></td>
+		</tr>
+		<tr valign="top" align="left">
+			<td><b>Ürün Fiyatı:</b></td>
+			<td>81,95 TL<br><br></td>
+		</tr>
+		<tr  valign="top" align="left">
+			<td><b>Beden:</b></td>
+			<td><select>
+					<option value="sec">Seçiniz...</option>
+					<option value="35">35</option>
+					<option value="36">36</option>
+					<option value="37">37</option>
+					<option value="38">38</option>
+					<option value="39">39</option>
+					<option value="40">40</option>
+					<option value="40">41</option>
+					<option value="40">42</option>
+					<option value="40">43</option>
+					<option value="40">44</option>
+				</select><br><br>
+			</td>
+		</tr>	
+		<tr  valign="top">
+		<td align="left"><b>Renk:</b></td>
+			<td>
+			<a href=""><img src="resimler/renk.jpg"></a>
+		</td>
+		</tr>
+		<tr  valign="top">
+			<td align="left"><b>Adet:</b></td>
+			<td> 
+			<form name='formum'>
+			<input type='button' value='-' onclick='eksi()'>
+			<input type='text' name='adet' value='1' size='2' class='adet'>
+			<input type='button' value='+' onclick='arti()'>
+			
+			</td>
+		</tr>
+		<tr valign="top" align="left">
+			<td><b>Ödenecek Tutar:</b></td>
+			<td><input type=text name='tutar' disabled=true size=8 value="81.95" style="font-size: 15;">&nbsp;TL</form><br><br></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="2"><input type=button value='Sepete Ekle' onclick='sepet()'><br><br><br></td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="black">
+<tr>
+<td class="yazi">
+	<table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+	<tr valign="top" align="left">
+	<td>
+		<a href=""><font size="5">Elya Shoes</font></a><br><br>
+		<a href="">About Us</a><br><br>
+		<a href="">Who We Are</a><br><br>
+		<a href="">Careers</a><br><br>
+		<a href="">Contact Us</a><br><br>
+	</td>
+	<td>
+		<a href=""><font size="5">Hakkımızda</font></a><br><br>
+		<a href="">Biz Kimiz</a><br><br>
+		<a href="">Kariyer</a><br><br>
+		<a href="">Bize Ulaşın</a><br><br>
+	</td>
+	<td>
+		<a href=""><font size="5">Kampanyalar</font></a><br><br>
+		<a href="">Aktif Kampanyalar</a><br><br>
+		<a href="">Elite Üyeler</a><br><br>
+	</td>
+	<td>
+		<a href=""><font size="5">Yardım</font></a><br><br>
+		<a href="">Sıkça Sorulan Sorular</a>
+		<a href="">Canlı Yardım</a><br><br>
+		<a href="">Nasıl İade Ederim</a><br><br>
+		<a href="">Nasıl Sipariş Verilir</a><br><br>
+	</td></tr>
+	<tr align="left" valign="top">
+		<td>
+			<font color="white"><b>Güvenli Alışveriş</b></font><br>
+			<img src="resimler/card.png"/>
+		</td>
+		<td>
+			<font color="white"><b>Mobil Uygulamalar</b></font><br>
+			<img src="resimler/mobil.png"/>
+		</td>
+		<td>
+			<font color="white"><b>Sosyal Medya</b></font><br>
+			<a href="www.facebook.com/elyashoes"><img src="resimler/facebook.png"/></a>
+			<a href="instagram.com/elyashoescom"><img src="resimler/instagram.png"/></a>
+			<a href="twitter.com/elyashoes"><img src="resimler/twitter.png"/></a>
+			<a href="www.youtube.com/elyashoes"><img src="resimler/youtube.png"/></a>
+		</td>
+		<td></td>
+	</tr></table>
+</td>
+</tr>
+<tr bgcolor="#2D2D2D" >
+	<td colspan="2"><br><font color="#2D2D2D" size="1">aaaaaaaaaaaaaaaaaaaaaaaaaa</font>
+	<font color="white" size="1">©2019 DSM Grup Danışmanlık İletişim ve Satış Tic.A.Ş.-Her Hakkı Saklıdır.</font>
+	<font color="#2D2D2D" size="1">aaaaaaaaaaaaaaa</font>
+	<font color="white" size="1">Kullanım Koşulları</font>
+	<font color="#2D2D2D" size="1">aaaaaaaaaaaaaaaa</font>
+	<font color="white" size="1">DSM Grup</font><br><br></td>
+</tr></table>
+</body>
+</html>
